@@ -42,3 +42,11 @@ $some = "var";
 $$some ="some";
 
 echo $some, $var;
+
+$max_int = PHP_INT_MAX;
+
+echo "max int here" .$max_int;
+var_dump($max_int);
+var_dump($max_int + 1); #after adding one we go to float
+#is_int checks for integer
+#flooar and ceil don't work :( #don't compare floats directly!!!!!
